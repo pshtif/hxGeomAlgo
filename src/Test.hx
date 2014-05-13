@@ -136,7 +136,7 @@ class Test extends Sprite {
 		drawDecompositionBayazit(decomposition, x + clipRect.x, y + clipRect.y);
 		addChild(getTextField("Bayazit\nDecomp\n" + decomposition.length + " polys", x, y));
 
-		// SNOEYINK-KEIL DECOMPOSITION (buggy)
+		// SNOEYINK-KEIL DECOMPOSITION
 		x += width + X_GAP;
 		decomposition = SnoeyinkKeil.decomposePoly(simplifiedPoly);
 		drawDecomposition(decomposition, x + clipRect.x, y + clipRect.y);
